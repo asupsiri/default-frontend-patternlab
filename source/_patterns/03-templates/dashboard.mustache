@@ -1,0 +1,27 @@
+{{> components-header }}
+<main role="main">
+	{{# alert }}
+		{{> compounds-alert }}
+	{{/ alert }}
+
+	{{# sectionBlock }}
+
+	{{> components-tile-grid }}
+
+	{{/ sectionBlock }}
+
+	<div class="l l--two-col">
+		<div class="l-main">
+			{{# featuredChallenges }}
+			{{> components-section-media-list }}
+			{{/ featuredChallenges }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			{{# featuredPeople }}
+			{{> components-section-media-list }}
+			{{/ featuredPeople}}
+		</div><!--end .l-sidebar-->
+	</div><!--end .l-two-col-->
+</main>
+{{> components-footer }}

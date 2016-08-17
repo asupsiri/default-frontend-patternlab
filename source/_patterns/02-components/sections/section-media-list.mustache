@@ -1,0 +1,16 @@
+<section class="c-section">
+	{{# sectionTitle}}
+	<h2 class="c-section__title">{{ sectionTitle }}</h2>
+	{{/ sectionTitle }}
+
+	{{> components-media-list }}
+	{{# textButton }}
+	{{> elements-text-button }}
+	{{/ textButton }}
+	{{# pagination }}
+	{{> compounds-pagination }}
+	{{/ pagination }}
+	{{# overlay }}
+		{{> compounds-overlay }}
+	{{/ overlay}}
+</section><!--end section-->

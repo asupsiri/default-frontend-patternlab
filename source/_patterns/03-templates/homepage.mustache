@@ -1,0 +1,28 @@
+{{> components-header }}
+<main role="main">
+
+	{{# hero }}
+		{{> compounds-block-hero }}
+	{{/ hero}}
+
+	<div class="l">
+		{{> components-tout-list }}
+	</div>
+
+	{{> elements-hidden-elements }}
+	<div class="l l--two-col">
+		<div class="l-main">
+			{{# latestPosts }}
+			{{> components-section-media-list }}
+			{{/ latestPosts }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			{{# featuredPeople }}
+			{{> components-section-media-list }}
+			{{/ featuredPeople }}
+		</div><!--end .l-sidebar-->
+
+	</div><!--end l--two-col-->
+</main>
+{{> components-footer }}

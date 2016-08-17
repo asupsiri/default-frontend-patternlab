@@ -56,7 +56,7 @@
   "patternStateCascade": ["inprogress", "inreview", "complete"],
   "patternStates": {
   },
-  "patternExportPatternPartials": [],
+  "patternExportPatternPartials": ["pages-homepage", "pages-login", "pages-dashboard"],
   "patternExportDirectory": "./pattern_exports/",
   "cacheBust": true,
   "starterkitSubDir": "dist",

@@ -1,0 +1,35 @@
+{
+  "src": {
+    "sass": "./source/css/scss/**/*.scss",
+    "css": "./source/css"
+  },
+  "dest": {
+    "dir": "./public",
+    "css": "./source/css"
+  },
+  "sassOptions": {
+    "includePaths": [
+      "node_modules/node-normalize-scss",
+      "node_modules/bourbon/app/assets/stylesheets",
+      "node_modules/bourbon-neat/app/assets/stylesheets",
+      "node_modules/bemify/sass",
+      "node_modules/avalanche-css",
+      "node_modules/remodal/dist"
+    ],
+    "outputStyle": "expanded",
+    "precision": 10
+  },
+  "postcssProcessors": {
+    "autoprefixer": "autoprefixer({browsers: ['last 2 versions', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4']})",
+    "nano": "cssnano()"
+  },
+  "uglify": {
+    "mangle": false,
+    "preserveComments": "license"
+  },
+  "browsersync": {
+    "server": {
+      "baseDir": "dest.dir"
+    }
+  }
+}

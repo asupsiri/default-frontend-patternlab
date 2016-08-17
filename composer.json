@@ -1,0 +1,6 @@
+{
+    "require": {
+        "pattern-lab/patternengine-mustache": "^2.1",
+        "pattern-lab/core": "^2.7"
+    }
+}

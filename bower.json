@@ -1,0 +1,37 @@
+{
+  "name": "default-frontend-patternlab",
+  "description": "Art Supsiri's default frontend setup",
+  "main": [
+    "js/index.js",
+    "scss/index.scss"
+  ],
+  "dependencies": {
+    "css-hamburgers": "^0.5.0",
+    "imagesloaded": "^4.1.0",
+    "isotope": "2.2.0",
+    "jquery": "^3.0.0",
+    "jquery-accessible-modal-window-aria": "*",
+    "jquery-flipster": "1.1.2",
+    "matchheight": "~0.7.0",
+    "sanitize-css": "^3.3.0",
+    "slick-carousel": "^1.5.9"
+  },
+  "moduleType": [],
+  "keywords": [
+    "frontend",
+    "default"
+  ],
+  "authors": [
+    "Art Supsiri"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/libs",
+    "test",
+    "tests"
+  ],
+  "private": true
+}

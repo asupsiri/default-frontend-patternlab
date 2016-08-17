@@ -1,0 +1,23 @@
+{{> components-header }}
+<main role="main">
+
+	{{> components-page-header }}
+
+	<div class="l l--two-col">
+		<div class="l-main">
+			{{# latestPosts }}
+			{{> components-section-media-list }}
+			{{/ latestPosts }}
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			{{# featuredPeople }}
+			{{> components-section-media-list }}
+			{{/ featuredPeople }}
+			{{# featuredHikes }}
+			{{> components-section-media-list }}
+			{{/ featuredHikes }}
+		</div><!--end .l-sidebar-->
+	</div><!--end .l-two-col-->
+</main>
+{{> components-footer }}
